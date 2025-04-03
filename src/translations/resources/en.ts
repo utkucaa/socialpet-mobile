@@ -1,0 +1,58 @@
+export default {
+  common_error: 'An error occurred',
+  'Appearance': 'Appearance',
+  'Theme': 'Theme',
+  'Language': 'Language',
+  'Dark': 'Dark',
+  'Light': 'Light',
+
+  welcome: {
+    title: 'Welcome to socialpet',
+    subtitle: 'Your personal photo storage and sharing app',
+    login: 'Sign In',
+    register: 'Create Account',
+  },
+
+  login: {
+    title: 'Welcome Back',
+    subtitle: 'Sign in to continue',
+    email: 'Email',
+    emailPlaceholder: 'Enter your email',
+    password: 'Password',
+    passwordPlaceholder: 'Enter your password',
+    forgotPassword: 'Forgot Password?',
+    submit: 'Sign In',
+    noAccount: 'Don\'t have an account?',
+    register: 'Sign Up',
+  },
+
+  register: {
+    title: 'Create Account',
+    subtitle: 'Sign up to get started',
+    firstName: 'First Name',
+    firstNamePlaceholder: 'Enter your first name',
+    lastName: 'Last Name',
+    lastNamePlaceholder: 'Enter your last name',
+    email: 'Email',
+    emailPlaceholder: 'Enter your email',
+    password: 'Password',
+    passwordPlaceholder: 'Create a password',
+    confirmPassword: 'Confirm Password',
+    confirmPasswordPlaceholder: 'Confirm your password',
+    submit: 'Sign Up',
+    haveAccount: 'Already have an account?',
+    login: 'Sign In',
+  },
+
+  forgotPassword: {
+    title: 'Forgot Password',
+    subtitle: 'Enter your email to reset your password',
+    email: 'Email',
+    emailPlaceholder: 'Enter your email',
+    submit: 'Send Reset Link',
+    success: 'Password reset link has been sent to your email',
+    error: 'Failed to send reset link',
+    rememberPassword: 'Remember your password?',
+    login: 'Sign In',
+  },
+};

@@ -1,0 +1,58 @@
+export default {
+  common_error: 'Bir hata oluştu',
+  'Appearance': 'Görünüm',
+  'Theme': 'Tema',
+  'Language': 'Dil',
+  'Dark': 'Koyu',
+  'Light': 'Açık',
+
+  welcome: {
+    title: 'socialpet\'a Hoş Geldiniz',
+    subtitle: 'Kişisel fotoğraf depolama ve paylaşım uygulamanız',
+    login: 'Giriş Yap',
+    register: 'Hesap Oluştur',
+  },
+
+  login: {
+    title: 'Tekrar Hoş Geldiniz',
+    subtitle: 'Devam etmek için giriş yapın',
+    email: 'E-posta',
+    emailPlaceholder: 'E-posta adresinizi girin',
+    password: 'Şifre',
+    passwordPlaceholder: 'Şifrenizi girin',
+    forgotPassword: 'Şifremi Unuttum',
+    submit: 'Giriş Yap',
+    noAccount: 'Hesabınız yok mu?',
+    register: 'Kayıt Ol',
+  },
+
+  register: {
+    title: 'Hesap Oluştur',
+    subtitle: 'Başlamak için kayıt olun',
+    firstName: 'Ad',
+    firstNamePlaceholder: 'Adınızı girin',
+    lastName: 'Soyad',
+    lastNamePlaceholder: 'Soyadınızı girin',
+    email: 'E-posta',
+    emailPlaceholder: 'E-posta adresinizi girin',
+    password: 'Şifre',
+    passwordPlaceholder: 'Bir şifre oluşturun',
+    confirmPassword: 'Şifre Tekrarı',
+    confirmPasswordPlaceholder: 'Şifrenizi tekrar girin',
+    submit: 'Kayıt Ol',
+    haveAccount: 'Zaten hesabınız var mı?',
+    login: 'Giriş Yap',
+  },
+
+  forgotPassword: {
+    title: 'Şifremi Unuttum',
+    subtitle: 'Şifrenizi sıfırlamak için e-posta adresinizi girin',
+    email: 'E-posta',
+    emailPlaceholder: 'E-posta adresinizi girin',
+    submit: 'Sıfırlama Bağlantısı Gönder',
+    success: 'Şifre sıfırlama bağlantısı e-posta adresinize gönderildi',
+    error: 'Sıfırlama bağlantısı gönderilemedi',
+    rememberPassword: 'Şifrenizi hatırladınız mı?',
+    login: 'Giriş Yap',
+  },
+};

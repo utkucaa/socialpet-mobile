@@ -1,0 +1,52 @@
+{
+  "socialpet": {
+    "common_appName": {
+      "full": "socialpet React Native",
+      "initials": "RNB"
+    },
+    "common_error": "Quelque chose s'est mal passé.",
+    "screen_example": {
+      "hello_user": "Salut, je m'appelle {{name}}",
+      "title": "Bienvenue sur Le $t(common_appName.full)",
+      "description": "Vous voulez découvrir des fonctionnalités ? Cliquez sur l'un des trois boutons en bas de l'écran. Le premier vous permet d'appeler une API REST. Le deuxième de changer la couleur du thème. Et le troisième de changer la langue"
+    },
+    "error_boundary": {
+      "title": "Oups ! Quelque chose s'est mal passé.",
+      "description": "Nous sommes désolés pour le désagrément. Veuillez réessayer plus tard.",
+      "cta": "Recharger l'écran"
+    },
+    "login": {
+      "title": "Bienvenue sur SocialPet",
+      "subtitle": "Connectez-vous pour continuer",
+      "email": "Email",
+      "emailPlaceholder": "Entrez votre email",
+      "password": "Mot de passe",
+      "passwordPlaceholder": "Entrez votre mot de passe",
+      "forgotPassword": "Mot de passe oublié?",
+      "submit": "Se connecter",
+      "noAccount": "Vous n'avez pas de compte?",
+      "register": "S'inscrire"
+    },
+    "register": {
+      "title": "Bienvenue sur SocialPet",
+      "subtitle": "Créez votre compte",
+      "firstName": "Prénom",
+      "firstNamePlaceholder": "Entrez votre prénom",
+      "lastName": "Nom",
+      "lastNamePlaceholder": "Entrez votre nom",
+      "username": "Nom d'utilisateur",
+      "usernamePlaceholder": "Choisissez un nom d'utilisateur",
+      "email": "Email",
+      "emailPlaceholder": "Entrez votre email",
+      "phoneNumber": "Numéro de téléphone",
+      "phoneNumberPlaceholder": "Entrez votre numéro de téléphone",
+      "password": "Mot de passe",
+      "passwordPlaceholder": "Créez un mot de passe",
+      "confirmPassword": "Confirmez le mot de passe",
+      "confirmPasswordPlaceholder": "Confirmez votre mot de passe",
+      "submit": "S'inscrire",
+      "haveAccount": "Vous avez déjà un compte?",
+      "login": "Se connecter"
+    }
+  }
+}
