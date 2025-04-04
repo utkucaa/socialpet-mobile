@@ -336,28 +336,28 @@ export const HomeScreen = () => {
   
   // Verileri yükle
   useEffect(() => {
-    const fetchData = async () => {
-      setLoading(true);
-      setError(null);
-      
-      try {
-        const [adoptionData, lostPetData] = await Promise.all([
-          adoptionService.getAdoptionListings(),
-          lostPetService.getLostPets()
-        ]);
-        
-        setAdoptionListings(adoptionData);
-        setLostPets(lostPetData);
-      } catch (error) {
-        console.error('Ana sayfa veri yükleme hatası:', error);
-        setError('Veriler yüklenirken bir hata oluştu. Lütfen tekrar deneyin.');
-      } finally {
-        setLoading(false);
-      }
-    };
-    
     fetchData();
   }, []);
+
+  const fetchData = async () => {
+    setLoading(true);
+    setError(null);
+    
+    try {
+      const [adoptionData, lostPetData] = await Promise.all([
+        adoptionService.getAdoptionListings(),
+        lostPetService.getLostPets()
+      ]);
+      
+      setAdoptionListings(adoptionData);
+      setLostPets(lostPetData);
+    } catch (error) {
+      console.error('Ana sayfa veri yükleme hatası:', error);
+      setError('Veriler yüklenirken bir hata oluştu. Lütfen tekrar deneyin.');
+    } finally {
+      setLoading(false);
+    }
+  };
   
   // Kategoriye göre filtreleme
   const filteredAdoptionListings = adoptionListings.filter(item => 
@@ -488,7 +488,7 @@ export const HomeScreen = () => {
         <Text style={styles.errorText}>{error}</Text>
         <TouchableOpacity 
           style={styles.primaryButton}
-          onPress={() => navigation.navigate('Auth')}
+          onPress={fetchData}
         >
           <Text style={styles.buttonText}>Tekrar Dene</Text>
         </TouchableOpacity>

@@ -1,14 +1,14 @@
 {
   "socialpet": {
     "common_appName": {
-      "full": "socialpet React Native",
+      "full": "React Native socialpet",
       "initials": "RNB"
     },
-    "common_error": "Quelque chose s'est mal passé.",
+    "common_error": "Oups ! Quelque chose s'est mal passé.",
     "screen_example": {
-      "hello_user": "Salut, je m'appelle {{name}}",
-      "title": "Bienvenue sur Le $t(common_appName.full)",
-      "description": "Vous voulez découvrir des fonctionnalités ? Cliquez sur l'un des trois boutons en bas de l'écran. Le premier vous permet d'appeler une API REST. Le deuxième de changer la couleur du thème. Et le troisième de changer la langue"
+      "hello_user": "Bonjour, je m'appelle {{name}}",
+      "title": "Bienvenue sur le $t(common_appName.full)",
+      "description": "Voulez-vous découvrir quelques fonctionnalités ? Cliquez simplement sur l'un des trois boutons en bas de l'écran. Le premier vous permet d'appeler une API REST. Le second vous permet de changer la couleur du thème. Et le troisième vous permet de changer de langue."
     },
     "error_boundary": {
       "title": "Oups ! Quelque chose s'est mal passé.",
@@ -22,9 +22,9 @@
       "emailPlaceholder": "Entrez votre email",
       "password": "Mot de passe",
       "passwordPlaceholder": "Entrez votre mot de passe",
-      "forgotPassword": "Mot de passe oublié?",
+      "forgotPassword": "Mot de passe oublié ?",
       "submit": "Se connecter",
-      "noAccount": "Vous n'avez pas de compte?",
+      "noAccount": "Vous n'avez pas de compte ?",
       "register": "S'inscrire"
     },
     "register": {
@@ -42,11 +42,31 @@
       "phoneNumberPlaceholder": "Entrez votre numéro de téléphone",
       "password": "Mot de passe",
       "passwordPlaceholder": "Créez un mot de passe",
-      "confirmPassword": "Confirmez le mot de passe",
+      "confirmPassword": "Confirmer le mot de passe",
       "confirmPasswordPlaceholder": "Confirmez votre mot de passe",
       "submit": "S'inscrire",
-      "haveAccount": "Vous avez déjà un compte?",
+      "haveAccount": "Vous avez déjà un compte ?",
       "login": "Se connecter"
+    },
+    "profile": {
+      "settings": "Paramètres",
+      "theme": "Thème",
+      "dark": "Sombre",
+      "light": "Clair",
+      "language": "Langue",
+      "logout": "Déconnexion",
+      "myPets": "Mes animaux",
+      "myAds": "Mes annonces",
+      "totalAds": "Annonces totales",
+      "activeAds": "Annonces actives",
+      "views": "Vues",
+      "loading": "Chargement des informations du profil...",
+      "addPet": "Ajouter un animal",
+      "newPet": "Ajouter un nouvel animal",
+      "noPets": "Vous n'avez pas encore d'animaux. Ajoutez vos animaux.",
+      "adoptionAd": "Annonce d'adoption",
+      "lostPetAd": "Annonce d'animal perdu",
+      "noAds": "Vous n'avez pas encore d'annonces. Créez une nouvelle annonce."
     }
   }
 }

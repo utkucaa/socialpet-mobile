@@ -47,6 +47,26 @@
       "submit": "Register",
       "haveAccount": "Already have an account?",
       "login": "Sign In"
+    },
+    "profile": {
+      "settings": "Settings",
+      "theme": "Theme",
+      "dark": "Dark",
+      "light": "Light",
+      "language": "Language",
+      "logout": "Logout",
+      "myPets": "My Pets",
+      "myAds": "My Ads",
+      "totalAds": "Total Ads",
+      "activeAds": "Active Ads",
+      "views": "Views",
+      "loading": "Loading profile information...",
+      "addPet": "Add Pet",
+      "newPet": "Add New Pet",
+      "noPets": "You don't have any pets yet. Add your pets.",
+      "adoptionAd": "Adoption Ad",
+      "lostPetAd": "Lost Pet Ad",
+      "noAds": "You don't have any ads yet. Create a new ad."
     }
   }
 }
