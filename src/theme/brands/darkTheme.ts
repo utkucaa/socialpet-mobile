@@ -5,15 +5,15 @@ export const darkTheme: Theme = {
   name: 'Dark Theme',
   colors: {
     primary: {
-      light: '#5C8AFF',
-      main: '#0066FF',
-      dark: '#0047B3',
+      light: '#B591E5',
+      main: '#9966CC',
+      dark: '#7C4FB0',
       contrast: '#FFFFFF',
     },
     secondary: {
-      light: '#FF8533',
-      main: '#FF6B00',
-      dark: '#CC5500',
+      light: '#A976F0',
+      main: '#8A2BE2',
+      dark: '#6A1FB3',
       contrast: '#FFFFFF',
     },
     background: {
@@ -23,33 +23,33 @@ export const darkTheme: Theme = {
     },
     text: {
       primary: '#FFFFFF',
-      secondary: '#B0B0B0',
-      disabled: '#666666',
-      inverse: '#000000',
+      secondary: '#CCCCCC',
+      disabled: '#888888',
+      inverse: '#333333',
     },
     success: {
-      light: '#4CAF50',
-      main: '#2E7D32',
-      dark: '#1B5E20',
+      light: '#98C379',
+      main: '#8BC34A',
+      dark: '#689F38',
     },
     warning: {
-      light: '#FFA726',
-      main: '#F57C00',
-      dark: '#E65100',
+      light: '#E5B1E5',
+      main: '#DDA0DD',
+      dark: '#C07FC0',
     },
     error: {
-      light: '#EF5350',
-      main: '#D32F2F',
-      dark: '#C62828',
+      light: '#F07BA7',
+      main: '#E06C9F',
+      dark: '#C25585',
     },
     info: {
-      light: '#29B6F6',
-      main: '#0288D1',
-      dark: '#01579B',
+      light: '#C0B0E8',
+      main: '#B39DDB',
+      dark: '#9575CD',
     },
     divider: 'rgba(255, 255, 255, 0.12)',
     overlay: 'rgba(0, 0, 0, 0.7)',
-    shadow: 'rgba(0, 0, 0, 0.3)',
+    shadow: 'rgba(164, 111, 207, 0.3)',
   },
   typography: {
     fontFamily: {
@@ -91,8 +91,8 @@ export const darkTheme: Theme = {
   },
   elevation: {
     none: 'none',
-    low: '0px 2px 4px rgba(0, 0, 0, 0.2)',
-    medium: '0px 4px 8px rgba(0, 0, 0, 0.25)',
-    high: '0px 8px 16px rgba(0, 0, 0, 0.3)',
+    low: '0px 2px 4px rgba(153, 102, 204, 0.2)',
+    medium: '0px 4px 8px rgba(153, 102, 204, 0.25)',
+    high: '0px 8px 16px rgba(153, 102, 204, 0.3)',
   },
 };

@@ -1,64 +1,65 @@
 import { Theme } from './types';
 
-// Apple-style color palette
+// Purple-focused color palette for light theme
 export const lightColors: Theme['colors'] = {
   primary: {
-    main: '#007AFF', // iOS blue
-    light: '#4DA2FF',
-    dark: '#0056B3',
-    contrast: '#FFFFFF',
+    main: '#8A2BE2', // Vibrant purple
+    light: '#A976F0', // Light purple
+    dark: '#6A1FB3', // Dark purple
+    contrast: '#FFFFFF', // White text on purple
   },
   secondary: {
-    main: '#5856D6', // iOS purple
-    light: '#7A79E0',
-    dark: '#3E3BA3',
-    contrast: '#FFFFFF',
+    main: '#9966CC', // Medium purple
+    light: '#B591E5', // Lighter purple
+    dark: '#7C4FB0', // Darker purple
+    contrast: '#FFFFFF', // White text on secondary
   },
   background: {
-    default: '#F2F2F7', // iOS light gray
-    paper: '#FFFFFF',
-    variant: '#FFFFFF',
+    default: '#F8F8F8', // Very light gray
+    paper: '#FFFFFF', // White
+    variant: '#F0F0F0', // Light gray
   },
   text: {
-    primary: '#000000',
-    secondary: '#6C6C70', // iOS secondary text
-    disabled: '#AEAEB2', // iOS disabled text
+    primary: '#333333', // Dark gray for primary text
+    secondary: '#666666', // Medium gray for secondary text
+    disabled: '#AAAAAA', // Light gray for disabled text
   },
-  error: '#FF3B30', // iOS red
-  warning: '#FF9500', // iOS orange
-  info: '#32ADE6', // iOS light blue
-  success: '#34C759', // iOS green
-  border: '#C6C6C8', // iOS border color
-  divider: '#C6C6C8',
+  error: '#D53F8C', // Pinkish purple for errors
+  warning: '#DDA0DD', // Plum color for warnings
+  info: '#9370DB', // Medium purple for info
+  success: '#6B8E23', // Olivedrab for success (complementary to purple)
+  border: '#E5E5E5', // Light gray border
+  divider: '#E0E0E0', // Slightly darker gray for dividers
 };
 
+// Purple-focused color palette for dark theme
 export const darkColors: Theme['colors'] = {
   primary: {
-    main: '#0A84FF', // iOS dark mode blue
-    light: '#4DA2FF',
-    dark: '#0056B3',
-    contrast: '#FFFFFF',
+    main: '#9966CC', // Medium purple for dark theme
+    light: '#B591E5', // Lighter purple
+    dark: '#7C4FB0', // Darker purple
+    contrast: '#FFFFFF', // White text on purple
   },
   secondary: {
-    main: '#5E5CE6', // iOS dark mode purple
-    light: '#7A79E0',
-    dark: '#3E3BA3',
-    contrast: '#FFFFFF',
+    main: '#8A2BE2', // Vibrant purple for secondary
+    light: '#A976F0', // Light purple
+    dark: '#6A1FB3', // Dark purple
+    contrast: '#FFFFFF', // White text on secondary
   },
   background: {
-    default: '#000000',
-    paper: '#1C1C1E', // iOS dark mode background
-    variant: '#2C2C2E',
+    default: '#121212', // Very dark gray
+    paper: '#1E1E1E', // Dark gray for surface elements
+    variant: '#2C2C2C', // Medium dark gray for variant surfaces
   },
   text: {
-    primary: '#FFFFFF',
-    secondary: '#98989D', // iOS dark mode secondary text
-    disabled: '#636366', // iOS dark mode disabled text
+    primary: '#FFFFFF', // White for primary text
+    secondary: '#CCCCCC', // Light gray for secondary text
+    disabled: '#888888', // Medium gray for disabled text
   },
-  error: '#FF453A', // iOS dark mode red
-  warning: '#FF9F0A', // iOS dark mode orange
-  info: '#64D2FF', // iOS dark mode light blue
-  success: '#30D158', // iOS dark mode green
-  border: '#38383A', // iOS dark mode border color
-  divider: '#38383A',
+  error: '#E06C9F', // Lighter pinkish purple for errors
+  warning: '#DDA0DD', // Plum color for warnings
+  info: '#B39DDB', // Lighter purple for info
+  success: '#8BC34A', // Light green for success
+  border: '#444444', // Dark gray border
+  divider: '#383838', // Slightly lighter gray for dividers
 };

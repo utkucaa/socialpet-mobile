@@ -625,7 +625,7 @@ export const HomeScreen = () => {
           </View>
           <TouchableOpacity 
             style={[styles.primaryButton, { marginTop: 16 }]}
-            onPress={() => navigation.navigate('Donate')}
+            onPress={() => navigation.navigate('Donation')}
           >
             <Text style={styles.buttonText}>Bağış Yap</Text>
           </TouchableOpacity>
@@ -645,6 +645,9 @@ export const HomeScreen = () => {
             </TouchableOpacity>
             <TouchableOpacity onPress={() => navigation.navigate('Lost')}>
               <Text style={styles.footerLink}>Kayıp İlanları</Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate('Donation')}>
+              <Text style={styles.footerLink}>Bağış Yap</Text>
             </TouchableOpacity>
           </View>
           

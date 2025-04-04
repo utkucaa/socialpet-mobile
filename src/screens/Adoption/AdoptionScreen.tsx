@@ -197,9 +197,9 @@ export const AdoptionScreen = () => {
           </View>
           <TouchableOpacity 
             style={styles.createButton}
-            onPress={() => navigation.navigate('CreateAdoption')}
+            onPress={() => navigation.navigate('StepByStepCreateAdoption')}
           >
-            <Icon name="plus" size={20} color={theme.colors.primary.contrast} />
+            <Icon name="plus" size={16} color={theme.colors.primary.contrast} />
             <Text style={styles.createButtonText}>İlan Ver</Text>
           </TouchableOpacity>
         </View>
